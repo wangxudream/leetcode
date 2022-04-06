@@ -1,6 +1,8 @@
 package com.kataer.leetcode;
 
 import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
 import java.util.Random;
 
 /**
@@ -12,13 +14,16 @@ import java.util.Random;
  **/
 public class Test {
   public static void main(String[] args) {
-    int a = 3; int b=4;
-    a = a^b;
-    b = a^b;
-    a = b^a;
-    System.out.println(a);
-    System.out.println(b);
+//    int a = 3;
+//    int b = 4;
+//    a = a ^ b;
+//    b = a ^ b;
+//    a = b ^ a;
+//    System.out.println(a);
+//    System.out.println(b);
+
+    List<Integer> vals = Arrays.asList(-2, -4, 2, 4);
+    Collections.sort(vals, (a, b) -> Math.abs(a) - Math.abs(b));
+    System.out.println(vals);
   }
-
-
 }

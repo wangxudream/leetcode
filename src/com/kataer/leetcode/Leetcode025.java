@@ -2,6 +2,7 @@ package com.kataer.leetcode;
 
 /**
  * https://leetcode-cn.com/problems/find-missing-observations/
+ * 2028. 找出缺失的观测数据
  */
 public class Leetcode025 {
   public static void main(String[] args) {

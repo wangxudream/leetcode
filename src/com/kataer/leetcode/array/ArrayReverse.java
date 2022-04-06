@@ -1,7 +1,6 @@
 package com.kataer.leetcode.array;
 
 import java.util.Arrays;
-import java.util.Collections;
 
 /**
  * @ClassName ArrayReverse
